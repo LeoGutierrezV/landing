@@ -269,10 +269,8 @@ font-weight: 400;
 .facts {
   background: linear-gradient(rgba(15, 80, 76, 0.9), rgba(15, 80, 76, 0.9)),
     url(../img/bg.png);
-  background-size: cover;
+    object-fit: cover;
   background-position: center;
-  padding-top: -100px; 
-    padding-bottom: -100px; 
 }
 
 /*** Callback ***/
@@ -331,7 +329,7 @@ font-weight: 400;
       rgba(255, 255, 255, 0.8)
     ),
     url(../img/6.png);
-  background-size: cover;
+  object-fit: cover;
   background-position: center;
 }
 
