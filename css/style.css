@@ -303,7 +303,7 @@ font-weight: 400;
   position: relative;
 }
 .container-unic {
-  max-width: 1520px !important;
+  max-width: 90% !important;
 }
 .row-auto {
   display: flex;
@@ -649,14 +649,30 @@ font-weight: 400;
   color: var(--primary);
 }
 
+.font-size-main {
+  font-size: 0.9vw;
+}
+
+.font-size-cards {
+  font-size: 1vw;
+}
+.font-size-subtitle {
+  font-size: 1.2vw;
+}
 .font-size-28px {
-  font-size: 28px;
+  font-size: 1.5vw;
+}
+.font-size-30px {
+  font-size: 2vw;
+}
+.font-size-32px {
+  font-size: 2.3vw;
 }
 .font-size-45px {
-  font-size: 45px;
+  font-size: 2.8vw;
 }
 .font-size-65px {
-  font-size: 65px;
+  font-size: 3vw;
 }
 .degradado {
   background-image: linear-gradient(to right, #033432 40%, #000 90%);
