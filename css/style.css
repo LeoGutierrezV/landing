@@ -271,6 +271,9 @@ font-weight: 400;
     url(../img/bg.png);
   background-size: cover;
   background-position: center;
+  top: 0;
+  height: 100v;
+  left: 0;
 }
 
 /*** Callback ***/
@@ -700,6 +703,50 @@ font-weight: 400;
   .padding-1-responsive {
     padding-top: 3rem;
     padding-bottom: 3rem;
+  }
+
+  .btn-urbis {
+    color: #fff;
+    padding: 5px 30px !important;
+    border: none;
+    position: relative;
+    font-size: 2.5vh !important;
+    background-color: transparent;
+    overflow: hidden;
+  }
+  .btn-urbis-2 {
+    color: #0F504C;
+    padding: 5px 30px !important;
+    border: none;
+    position: relative;
+    font-size: 2.5vh !important;
+    font-weight: bold;
+    background-color: transparent;
+    overflow: hidden;
+  }
+  .font-size-65px {
+    font-size: 4.9vh;
+  }
+  .font-size-45px {
+    font-size: 4vh;
+  }
+  .font-size-28px {
+    font-size: 3vh;
+  }
+  .font-size-subtitle {
+    font-size: 2.7vh;
+  }
+  .font-size-cards {
+    font-size: 2.5vh;
+  }
+  .font-size-30px {
+    font-size: 3.3vh;
+  }
+  .font-size-31px {
+    font-size: 3.5vh;
+  }
+  .font-size-32px {
+    font-size: 4vh;
   }
 }
 
