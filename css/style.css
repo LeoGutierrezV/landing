@@ -219,9 +219,8 @@ font-weight: 400;
 
 .intro {
   text-align: center;
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
-  max-width: 1000px;
 }
 .img-responsive {
   max-width: 100%;
@@ -268,7 +267,7 @@ font-weight: 400;
 
 /*** Facts ***/
 .facts {
-  background: linear-gradient(rgba(15, 80, 76, 0.7), rgba(15, 80, 76, 0.7)),
+  background: linear-gradient(rgba(15, 80, 76, 0.9), rgba(15, 80, 76, 0.9)),
     url(../img/bg.png);
   background-size: cover;
   background-position: center;
@@ -293,7 +292,7 @@ font-weight: 400;
 
 /*** Facts ***/
 .facts1 {
-  background: linear-gradient(rgba(255, 255, 255,0.5), rgba(255, 255, 255,255)),
+  background: linear-gradient(rgba(255, 255, 255,0.7), rgba(255, 255, 255,255)),
     url(../img/fondo.png);
   background-size: cover;
   background-position: center;
@@ -303,7 +302,14 @@ font-weight: 400;
 .callback1 {
   position: relative;
 }
-
+.container-unic {
+  max-width: 1520px !important;
+}
+.row-auto {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
 .callback1::before {
   position: absolute;
   content: "";
@@ -319,7 +325,7 @@ font-weight: 400;
 /*** Facts ***/
 .facts2 {
   background: linear-gradient(
-      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.9),
       rgba(255, 255, 255, 0.8)
     ),
     url(../img/6.png);
@@ -649,6 +655,9 @@ font-weight: 400;
 .font-size-45px {
   font-size: 45px;
 }
+.font-size-65px {
+  font-size: 65px;
+}
 .degradado {
   background-image: linear-gradient(to right, #033432 40%, #000 90%);
 }
@@ -694,7 +703,6 @@ font-weight: 400;
   border-radius: inherit;
   border: 4px solid transparent;
   border-image: linear-gradient(to right, #FE9E0C, #000) 5;
-  z-index: -1;
 }
 
 
@@ -724,7 +732,6 @@ font-weight: 400;
   border-radius: inherit;
   border: 4px solid transparent;
   border-image: linear-gradient(to right, #FE9E0C, #000) 5 !important;
-  z-index: -1;
 }
 
 
