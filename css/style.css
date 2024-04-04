@@ -708,7 +708,7 @@ font-weight: 400;
   padding: 5px 30px !important;
   border: none;
   position: relative;
-  font-size: 25px;
+  font-size: 1.3vw;
   background-color: transparent;
   overflow: hidden;
 }
@@ -736,7 +736,7 @@ font-weight: 400;
   padding: 5px 30px !important;
   border: none;
   position: relative;
-  font-size: 25px;
+  font-size: 1.3vw;
   font-weight: bold;
   background-color: transparent;
   overflow: hidden;
