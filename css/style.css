@@ -660,7 +660,7 @@ font-weight: 400;
   font-size: 20px;
 }
 .font-size-28px {
-  font-size: 27px;
+  font-size: 1.5vw;
 }
 .font-size-30px {
   font-size: 36px;
@@ -672,8 +672,9 @@ font-weight: 400;
   font-size: 50px;
 }
 .font-size-65px {
-  font-size: 60px;
+  font-size: 3.5vw;
 }
+
 .degradado {
   background-image: linear-gradient(to right, #033432 40%, #000 90%);
 }
